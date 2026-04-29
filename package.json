@@ -1,0 +1,19 @@
+{
+  "name": "smart-document-parser",
+  "version": "1.0.0",
+  "description": "Extract structured data from PDF invoices using pattern matching",
+  "main": "parser.js",
+  "bin": {
+    "smart-document-parser": "./cli.js"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "keywords": ["pdf", "parser", "invoice", "extraction"],
+  "author": "AViviani1",
+  "license": "MIT",
+  "dependencies": {
+    "pdf-parse": "^1.1.1",
+    "pdf-lib": "^1.17.1"
+  }
+}
